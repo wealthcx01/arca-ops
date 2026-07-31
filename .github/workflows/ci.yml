@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  tickets:
+    name: Ticket format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # The PRs here are opened by an agent lane. Gating the shape of what it writes is what stops a
+      # malformed ticket from quietly disappearing off the founder's board.
+      - run: node scripts/check-tickets.mjs
