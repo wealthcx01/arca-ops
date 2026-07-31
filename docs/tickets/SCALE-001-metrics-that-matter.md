@@ -1,6 +1,6 @@
 # SCALE-001 — Define the handful of numbers ARCA is actually run on
 
-**Status:** Todo · **Owner:** lane · **Gate:** tbd-fb012
+**Status:** In progress · **Owner:** lane · **Gate:** tbd-fb012
 
 ## Why this matters
 A dashboard with forty numbers on it tells you nothing. Before anything gets built here, the venture
@@ -23,6 +23,6 @@ enough that two people compute the same answer, and where the data for it actual
 Building a dashboard. Adding instrumentation. Changing anything in the product repo.
 
 ## Acceptance criteria
-- [ ] `context/metrics.md` exists with the four fields above for every metric listed.
-- [ ] Each metric names its source of truth, or says plainly that it is not instrumented.
-- [ ] Anything backed by synthetic data is labelled as such.
+- [x] `context/metrics.md` exists with the four fields above for every metric listed.
+- [x] Each metric names its source of truth, or says plainly that it is not instrumented.
+- [x] Anything backed by synthetic data is labelled as such.
