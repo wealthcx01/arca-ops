@@ -77,3 +77,5 @@ fields per metric. Files touched: `context/metrics.md` (new) only.
       `context/metrics.md` directly — no external doc needed to confirm them.
 
 <!-- foundry-ticket: 596de2d06613eb6d -->
+
+<!-- foundry-ticket: 596de2d06613eb6d -->
