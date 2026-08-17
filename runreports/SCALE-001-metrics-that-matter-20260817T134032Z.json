@@ -1,0 +1,9 @@
+{
+  "ticket": "SCALE-001-metrics-that-matter",
+  "lane": "arca",
+  "status": "working",
+  "summary": "Lane claimed the ticket and started work.",
+  "started": "2026-08-17T13:40:28Z",
+  "finished": "2026-08-17T13:40:32Z",
+  "repo": "wealthcx01/arca-ops"
+}
