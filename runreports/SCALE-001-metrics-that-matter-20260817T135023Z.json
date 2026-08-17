@@ -1,0 +1,9 @@
+{
+  "ticket": "SCALE-001-metrics-that-matter",
+  "lane": "arca",
+  "status": "blocked",
+  "summary": "This ticket ends in something that goes to real people, so it needs your approval before it happens — but the lane never wrote the proposal for you to approve. The work is in https://github.com/wealthcx01/arca-ops/pull/2; the send is NOT queued. It needs a human.",
+  "started": "2026-08-17T13:40:28Z",
+  "finished": "2026-08-17T13:50:23Z",
+  "repo": "wealthcx01/arca-ops"
+}
